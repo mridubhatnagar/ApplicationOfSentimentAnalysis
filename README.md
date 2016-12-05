@@ -1,0 +1,2 @@
+# ApplicationOfSentimentAnalysis
+ Developed a python application to listen and harvest tweets which are based on certain topic or contain keywords/hashtags etc.  Typical use is to analyse user tweets that may relate to a product feedback, some campaign or similar. The application needs to be generic which can be deployed for various uses. All the tweets that it harvests would be saved in mysql tables for later analysis. 
