@@ -4,9 +4,13 @@
  
 Requirements:
 Python 3.4.2
+
 MySQL
-install tweepy 
+
+install tweepy
+
 TextBlob module
+
 
 
 Files
