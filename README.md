@@ -16,19 +16,6 @@ TextBlob module
 Files
 1)FinalTest.py- Contains the code to fetch 5000 tweets from twitter using twitter's REST API and tweepy module.And stores the retrieved values in MySQL database.
 
-import tweepy
-from tweepy import OAuthHandler
-
-consumer_key = 'YOUR-CONSUMER-KEY'
-consumer_secret = 'YOUR-CONSUMER-SECRET'
-access_token = 'YOUR-ACCESS-TOKEN'
-access_secret = 'YOUR-ACCESS-SECRET'
-
-auth = OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_secret)
-
-api = tweepy.API(auth)
-
 
 
 
@@ -37,4 +24,8 @@ api = tweepy.API(auth)
 
 
 3)MergedGUI-Involves graphical interface for the project. Based on the data graphical analysis of data is done.
+
+
+
+Run mergedGUI.py for final output
 
